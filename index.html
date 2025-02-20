@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_4 To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔸TO-DO 📃</h1>
+      <div class="task-input">
+        <input type="text" id="task" placeholder="Enter a new task..." />
+        <input type="datetime-local" id="task-time" />
+        <button class="SaveBtn" onclick="saveTask()">Save Task</button>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
