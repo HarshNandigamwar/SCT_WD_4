@@ -22,7 +22,7 @@ This project is a feature-rich To-Do List application built using HTML, CSS, and
 
 1.  Open the To-Do List application in your web browser.
 2.  Type your task in the input field.
-4.  Click the "Add" button to add the task to the list.
-5.  Click the checkbox next to a task to mark it as complete.
-6.  Click the "Delete" button (or appropriate icon) to remove a task.
+4.  Click the "Save Task" button to add the task to the list.
+5.  Click the completed button to mark it as complete.
+6.  Click the "Delete" button to remove a task.
 
