@@ -2,7 +2,7 @@
 
 # ✅ Interactive To-Do List
 
-This project is a feature-rich To-Do List application built using HTML, CSS, and JavaScript. It boasts an attractive, user-friendly design and allows users to add tasks along with their due dates and times. This project was developed as part of my internship at #SkillcraftTechnology.
+This project is a feature-rich To-Do List application built using HTML, CSS3, and JavaScript. It boasts an attractive, user-friendly design and allows users to add tasks along with their due dates and times. This project was developed as part of my internship at #SkillcraftTechnology.
 
 ## ✨ Features
 
@@ -15,7 +15,7 @@ This project is a feature-rich To-Do List application built using HTML, CSS, and
 ## 💻 Technologies Used
 
 *   **HTML:** Structures the content and elements of the To-Do List.
-*   **CSS:** Styles the application, creating the attractive user interface.
+*   **CSS3:** Styles the application, creating the attractive user interface.
 *   **JavaScript:** Implements the core functionality, including adding, deleting, completing tasks, and managing dates/times.
 
 ## 🚀 How to Use
