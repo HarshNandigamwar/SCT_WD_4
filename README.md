@@ -4,7 +4,6 @@
 
 This project is a feature-rich To-Do List application built using HTML, Tailwind-CSS, and JavaScript. It boasts an attractive, user-friendly design and allows users to add tasks along with their due dates and times. This project was developed as part of my internship at #SkillcraftTechnology.
 
--
 ![img1](./logo/img%201.png)
 -
 ![img1](./logo/img%202.png)
