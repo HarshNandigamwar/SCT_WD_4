@@ -4,18 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task_4 To-Do List</title>
-    <link rel="icon" href="./logo/todo.png" type="image/png">
+    <link rel="icon" href="./logo/todo.png" type="image/png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 20px;
+      }
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+      .task-input {
+        margin-bottom: 20px;
+      }
+      .task-input input {
+        padding: 10px;
+      }
+      button {
+        padding: 10px 15px;
+      }
+      button {
+        color: rgb(255, 255, 255);
+        background: #1a1a1a;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 3px solid #1a00ff;
+        font-weight: 100;
+        font-size: large;
+        gap: 1px;
+      }
+      .saveBtn {
+        font-size: medium;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        background: #1a1a1a;
+        border: 3px solid #1a00ff;
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+      }
+      .completed {
+        text-decoration: line-through;
+        opacity: 0.5;
+        font-size: 10px;
+      }
+    </style>
   </head>
-  <body>
-    <div class="container">
-      <h1>🔸TO-DO 📃</h1>
-      <div class="task-input">
-        <input type="text" id="task" placeholder="Enter a new task..." />
-        <input type="datetime-local" id="task-time" />
-        <button class="SaveBtn" onclick="saveTask()">Save Task</button>
+  <body
+    class="bg-[#111111] font-[arial] text-center min-h-screen flex flex-col justify-center items-center"
+  >
+    <div
+      class="container w-[100%] max-w-600 bg-white border-[3px] border-[solid] border-[#1a00ff] rounded-xl sm:w-[60%]  md:w-[50%] lg:w-[40%]"
+    >
+      <h1 class="text-3xl boald">🔹TO-DO 📃</h1>
+      <div
+        class="task-input flex gap-[10px] flex-wrap rounded-xl justify-around"
+      >
+        <input title="Enter task"
+          class="flex-1 border-[3px] border-[solid] border-[#1a00ff] rounded-md bg-[#1a1a1a] text-white"
+          type="text"
+          id="task"
+          placeholder="Enter a new task..."
+        />
+        <input title="Enter date"
+          class="flex-1 border-[3px] border-[solid] border-[#1a00ff] rounded-md bg-[#1a1a1a] text-white"
+          type="datetime-local"
+          id="task-time"
+        />
+        <button
+          class="saveBtn text-white bg-[#1a1a1a] cursor-pointer rounded-md border-[3px] border-[solid] border-[#1a00ff]"
+          onclick="saveTask()"
+        >
+          Save Task
+        </button>
       </div>
       <ul id="task-list"></ul>
+    </div>
+    <div title="About dev" class="text-white text-center" style="padding-top: 30px">
+      <a class="hover:text-[#1a00ff]" href="https://github.com/HarshNandigamwar"
+        ><i
+          title="About Developer"
+          class="fa-solid fa-circle-info text-white text-1xl"
+        ></i>
+        About Dev</a
+      >
     </div>
     <script defer src="script.js"></script>
   </body>

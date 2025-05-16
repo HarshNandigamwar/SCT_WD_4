@@ -13,20 +13,20 @@ function saveTask() {
   taskText.textContent = `${input.value} (Due:- ${time.value})`;
 
   let completeBtn = document.createElement("button");
-  completeBtn.textContent = "Completed";
+  completeBtn.textContent = "✅";
   completeBtn.onclick = function () {
     li.classList.toggle("completed");
   };
 
   let editBtn = document.createElement("button");
-  editBtn.textContent = "Edit";
+  editBtn.textContent = "✏";
   editBtn.onclick = function () {
     let newText = prompt("Edit task:", taskText.textContent);
     if (newText) taskText.textContent = newText;
   };
 
   let deleteBtn = document.createElement("button");
-  deleteBtn.textContent = "Delete";
+  deleteBtn.textContent = "🗑";//delete emoji
   deleteBtn.onclick = function () {
     List.removeChild(li);
   };
